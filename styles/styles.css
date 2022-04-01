@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.sections-top{
+    background: #221432be;
+    width: 100%;
+    height: 45px;
+}
