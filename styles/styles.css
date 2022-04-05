@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #8b77a263;
     }
 .sections-top{
-    background: #221432be;
+    background: #221432;
     width: 100%;
-    height: 45px;
+    height: 100px;
 }

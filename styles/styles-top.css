@@ -2,7 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     }
       .logo_img {
         height: 90%;
+        background: #221432;
+      }
+      .whatsapp{
+        background: #221432;
+        padding-bottom: 2%;
+        padding-left: 1%;
+      }
+      .vk{
+        background: #221432;
+        padding-bottom: 2%;
+        padding-left: 1%;
+      }
+      .telegram{
+        background: #221432;
+        padding-bottom: 2%;
+        padding-left: 1%;
       }
