@@ -8,18 +8,19 @@
         height: 90%;
         background: #221432;
       }
-      .whatsapp_img{
+      .logo_img_button{
+        background: #221432;
+      }
+      .social_img{
         background: #221432;
         padding-bottom: 2%;
         padding-left: 1%;
       }
-      .vk_img{
+      .text_button{
+        color:white;
         background: #221432;
-        padding-bottom: 2%;
-        padding-left: 1%;
-      }
-      .telegram_img{
-        background: #221432;
-        padding-bottom: 2%;
-        padding-left: 1%;
+        text-align: center;
+        text-decoration: none;
+        left: 10%;
+        top: 10%;
       }
