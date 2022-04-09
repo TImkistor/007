@@ -22,14 +22,19 @@
   width: 37%;
   height: 20px;
   left: 3%;
-  top: 40% ;
+  top: 40%;
+  text-decoration: none;
 }
 .section_top_box_right{
-  color: #ffffff;
   text-align: center;
   position: absolute;
   width: 37%;
   height: 20px;
   right: 3%;
-  top: 40% ;
+  top: 40%;
+}
+.section_top_box_text{
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 15px;
 }
