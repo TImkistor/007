@@ -3,6 +3,13 @@
     padding: 0;
     }
 .section_top {
+    background-color: #321a4000;
+    position:fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+  }
+  .section_topscrol {
     background-color: #321a40;
     position:fixed;
     width: 100%;
