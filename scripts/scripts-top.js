@@ -1,4 +1,4 @@
-// Код @rus_anonym спасибо 
+//  @rus_anonym спасибо 
 
 window.addEventListener("scroll", () => {
     let scrollTop = document.getElementById('test');
@@ -8,6 +8,18 @@ window.addEventListener("scroll", () => {
         scrollTop.className = "section_top"
     } else {
         scrollTop.className = "section_topscrol"
+    }
+
+})
+
+window.addEventListener("scroll", () => {
+    let scrollbutton = document.getElementById('test');
+
+
+    if (Math.floor(window.scrollY) === 1) {
+        scrollTopbutton.className = ""
+    } else {
+        scrollTopbutton.className = ""
     }
 
 })

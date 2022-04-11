@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    
+    .section_content_box_ocafe_box{
+        background-color: white;
+        width: 80%;
+        height: 80%;
+        position: absolute;
+        top: 10%;
+        bottom: 10%;
+        right: 10%;
+        left: 10%;
+}
+.section_content_box_ocafe_box_stumps{
+   width: 40%;
+   height: 10%;
+   position: absolute;
+   top: 10%;
+   bottom: 70%;
+   right: 30%;
+   color: blueviolet;
+   font-size: 300%;
+   font-weight: bold;
+   text-align: center;
+}
