@@ -64,7 +64,6 @@
     font-size: 150%;
 }
 .section_content_box_address_img{
-    background-color: #321a40;
     width: 5%;
     height: 50px;
     position: absolute;
@@ -81,7 +80,6 @@
     color: aliceblue;
 }
 .section_content_box_timetable_img{
-    background-color: #321a40;
     width: 5%;
     height: 50px;
     position: absolute;
@@ -98,7 +96,6 @@
     color: aliceblue;
 }
 .section_content_box_phone_img{
-    background-color: #321a40;
     width: 5%;
     height: 50px;
     position: absolute;
