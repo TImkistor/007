@@ -11,15 +11,3 @@ window.addEventListener("scroll", () => {
     }
 
 })
-
-window.addEventListener("scroll", () => {
-    let scrollbutton = document.getElementById('test');
-
-
-    if (Math.floor(window.scrollY) === 1) {
-        scrollTopbutton.className = ""
-    } else {
-        scrollTopbutton.className = ""
-    }
-
-})

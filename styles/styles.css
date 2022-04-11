@@ -6,13 +6,23 @@
   width: 0.1px;
 }
 .scrollbutton{
-  background-image: url("./images/scroll.png");
-  background-color: green;
+  display: none;
   border-radius: 90%;
   width: 5%;
   height: 10%;
   position: fixed;
-  top: 90%;
+  top: 80%;
+  right: 3%;
+  z-index: 1;
+}
+
+.scrollbuttonfill{
+  background-color: white;
+  border-radius: 90%;
+  width: 5%;
+  height: 10%;
+  position: fixed;
+  top: 80%;
   right: 3%;
   z-index: 1;
 }
