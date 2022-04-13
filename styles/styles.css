@@ -39,7 +39,7 @@
     z-index: 1;
   }
   .section_topscrol {
-    background-color: #321a40d8;
+    background-color: #321a409e;
     position:fixed;
     width: 100%;
     height: 100px;
@@ -53,16 +53,23 @@
     z-index: 0;
   }
   .section_content_box_ocafe{
-    background-color: #321a40b6;
+    background-color: #321a409e;
     width: 100%;
     position: relative;
     height: 1100px;
     z-index: 0;
 }
 .section_content_box_map{
-  background-color: #321a40b6;
+  background-color: #321a409e;
   width: 100%;
   position: relative;
-  height: 1100px;
+  height: 700px;
+  z-index: 0;
+}
+.section_content_button{
+  background-color: #321a409e;
+  width: 100%;
+  height: 250px;
+  position:relative;
   z-index: 0;
 }

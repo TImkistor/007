@@ -8,14 +8,14 @@
         height: 5%;
         position: absolute;
         right: 30.5%;
-        font-size: 300%;
+        font-size: 250%;
         text-align: center;
         color: rgb(255, 255, 255);
     }
     .section_content_box_map_box{
         background-color: aliceblue;
         width: 80%;
-        height: 50%;
+        height: 80%;
         position: absolute;
         right: 10%;
         left: 10%;
