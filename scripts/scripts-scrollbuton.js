@@ -8,6 +8,6 @@ window.addEventListener("scroll", () => {
         scrollbutton.className = "scrollbuttonfill"
     }
 })
-$('#boxscroll').click(function(){
-    $('body').animate({scrollTop:0}, '500', 'swing');
- });
+//$('#boxscroll').click(function(){
+//    $('body').animate({scrollTop:0}, '500', 'swing');
+// });

@@ -1,5 +1,4 @@
 //  @rus_anonym спасибо 
-
 window.addEventListener("scroll", () => {
     let scrollTop = document.getElementById('test');
 
