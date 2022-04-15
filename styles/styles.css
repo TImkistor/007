@@ -10,6 +10,12 @@
   height: 100%;
   background-color: #000000;
 }
+.scrollbutton_img{
+  width: 80%;
+  height: 80%;
+  border-radius: 90%;
+  top: 35%;
+}
 .scrollbutton{
   display: none;
   border-radius: 90%;

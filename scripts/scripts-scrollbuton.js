@@ -7,7 +7,8 @@ window.addEventListener("scroll", () => {
     } else {
         scrollbutton.className = "scrollbuttonfill"
     }
-})
-//$('#boxscroll').click(function(){
-//    $('body').animate({scrollTop:0}, '500', 'swing');
-// });
+});
+
+const scrollToTop = () => {
+    window.scrollTo({top: 0})
+}
