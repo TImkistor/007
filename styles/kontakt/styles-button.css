@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.section_content_box_button_null{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 0.5%;
+    
+}
+.section_content_box_button_one{
+    position: absolute;
+    width: 100%;
+    height: 60%;
+
+}
+.section_content_box_button_two{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 0.5%;
+    top: 60%;
+    
+}
+.section_content_box_button_three{
+    position: absolute;
+    width: 100%;
+    height: 39%;
+    top: 61%; 
+}

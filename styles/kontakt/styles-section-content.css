@@ -38,34 +38,44 @@
         right: 10%;
     }
     .section_content_box_box_box_address{
-        background-color: aliceblue;
         position: absolute;
         width: 30%;
         height: 20%;
         top: 10%;
         left: 10%;
+        color: white;
+        text-align: center;
     }
     .section_content_box_box_box_graph{
-        background-color: aliceblue;
         position: absolute;
         width: 30%;
         height: 20%;
         top: 10%;
         right: 10%;
+        color: white;
+        text-align: center;
     }
     .section_content_box_box_box_phone{
-        background-color: aliceblue;
         position: absolute;
         width: 30%;
         height: 20%;
         top: 50%;
         left: 10%;
+        color: white;
+        text-align: center;
     }
     .section_content_box_box_box_mail{
-        background-color: aliceblue;
         position: absolute;
         width: 30%;
         height: 20%;
         top: 50%;
         right: 10%;
+        color: white;
+        text-align: center;
+    }
+    .section_content_box_box_box_title{
+        font-size: 250%;
+    }
+    .section_content_box_box_box_text{
+        font-size: 150%;
     }
