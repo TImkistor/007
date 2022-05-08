@@ -12,19 +12,33 @@
 }
 
 .top-mobile{
-    background-color: rgb(0, 0, 0);
+    background-color: #000000ea;
     position: fixed;
     width: 100%;
     height: 200px;
     z-index: 2;
 }
+
 .logobox-mobile{
     position: absolute;
     width: 25%;
     height: 85%;
-    right: 38%;
+    left: 43%;
     top: 10%;
 }
+
+.make-mobile{
+  position: absolute;
+  width: 20%;
+  height: 40%;
+  left: 10%;
+  background-color: #38EBEB;
+  font-size: 150%;
+  top: 30%;
+  color: white;
+  font-weight: bold;
+}
+
 .fon{
     width: 100%;
     height: 2000px;
