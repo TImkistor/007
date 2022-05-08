@@ -102,6 +102,28 @@
   
     transition-duration: .25s;
   }
+  .menu__connection {
+    display: block;
+    padding: 30px 3%;
+  
+    color: #ffffff;
+  
+    font-family: 'Arial', sans-serif;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+    
+  
+    text-decoration: none;
+  
+    transition-duration: .25s;
+  }
+  .menu__syt {
+    display: block;
+
+    width: 100%;
+    height: 10%;
+  }
 
   .menu__item:hover {
     background-color: #000000;
