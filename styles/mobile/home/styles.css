@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box-mobile{
+    position: relative;
+   background-color: black;
+   width: 100%;
+   height: 2918px;
+   z-index: 0;
+}
+
+.top-mobile{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    height: 71px;
+    z-index: 2;
+}
+
+.fon{
+    width: 100%;
+    height: 800px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.7;
+}
