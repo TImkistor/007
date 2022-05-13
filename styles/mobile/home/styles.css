@@ -3,186 +3,343 @@
     padding: 0%;
 }
 
-.box-mobile{
-    position: relative;
-   background-color: black;
-   width: 100%;
-   height: 8000px;
-   z-index: 0;
-   display: flex;
-   flex-direction: column;
+.element::-webkit-scrollbar {
+    width: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+/*Mobile*/
+@media screen and (max-width: 600px){
+    .box{
+        position: relative;
+        background-color: black;
+        width: 100%;
+        height: 2918px;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+     }
+     .top{
+         margin: auto;
+         display: flex;
+         background-color: #000000;
+         position: fixed;
+         width: 100%;
+         height: 200px;
+         z-index: 2;
+     }
+     .logobox{
+         position: absolute;
+         display: flex;
+         justify-content: space-around;
+         width: 40%;
+         margin: auto;
+         right: 20%;
+         bottom: -110px;
+     }
+     .make{
+        position: absolute;
+        background-color: #38ebeb;
+        width: 37%;
+        height: 65px;
+        margin: 0 auto;
+        color: white;
+        font-weight: bold;
+        font-size: 200%;
+        margin-top: auto;
+        bottom: -50px;
+        left: -7%;
+     }
+     .menu{
+         position: relative;
+         display: flex;
+         font-size: 100%;
+         color: #38ebebc7;
+         width: 80%;
+         margin: auto 14%;
+     }
+     .menu-txt{
+         display: none;
+     }
+     .menu-txt:hover{
+         display: none;
+     }
+     
+     
+     
+     
+     
+     .fon{
+         justify-content: center;
+         position: relative;
+         display: flex;
+         position: relative;
+         width: 100%;
+         height: 2300px;
+     }
+     .fon-img{
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         opacity: 0.7;
+     }
+     .fon-title{
+         width: 100%;
+         position: absolute;
+         color: white;
+         opacity: 0.9;
+         font-size: 250%;
+         text-align: center;
+         margin-top: 12%;
+         font-weight: bold;
+     }
+     .fon-text{
+         position: absolute;
+         color: rgba(255, 255, 255, 0.577);
+         font-size: 100%;
+         text-align: center;
+         margin-top: 16%;
+         font-weight: bold;
+         width: 100%;
+     }
+     .fon-button{
+         position: absolute;
+         background-color: #38ebeb;
+         width: 15%;
+         height: 55px;
+         margin: 0 auto;
+         color: white;
+         font-weight: bold;
+         font-size: 100%;
+         margin-top: 20%;
+     }
+     .connect-fon{
+         align-items: center;
+         top: 150px;
+         display: flex;
+         position: relative;
+         margin: auto;
+         color: white;
+         font-size: 125%;
+     }
 }
-
-.top-mobile{
-    background-color: #000000ea;
-    position: fixed;
-    width: 100%;
-    height: 200px;
-    z-index: 2;
+/*Tablet*/
+@media screen and (max-width: 999px){
+    .box{
+        position: relative;
+        background-color: black;
+        width: 100%;
+        height: 2918px;
+        z-index: 0;
+        display: flex;
+        flex-direction: column;
+     }
+     .top{
+         margin: auto;
+         display: flex;
+         background-color: #000000;
+         position: fixed;
+         width: 100%;
+         height: 200px;
+         z-index: 2;
+     }
+     .logobox{
+         position: absolute;
+         display: flex;
+         justify-content: space-around;
+         width: 40%;
+         margin: auto;
+         right: 20%;
+         bottom: -110px;
+     }
+     .make{
+        position: absolute;
+        background-color: #38ebeb;
+        width: 37%;
+        height: 65px;
+        margin: 0 auto;
+        color: white;
+        font-weight: bold;
+        font-size: 200%;
+        margin-top: auto;
+        bottom: -50px;
+        left: -7%;
+     }
+     .menu{
+         position: relative;
+         display: flex;
+         font-size: 100%;
+         color: #38ebebc7;
+         width: 80%;
+         margin: auto 14%;
+     }
+     .menu-txt{
+         display: none;
+     }
+     .menu-txt:hover{
+         display: none;
+     }
+     
+     
+     
+     
+     
+     .fon{
+         justify-content: center;
+         position: relative;
+         display: flex;
+         position: relative;
+         width: 100%;
+         height: 2300px;
+     }
+     .fon-img{
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         opacity: 0.7;
+     }
+     .fon-title{
+         width: 100%;
+         position: absolute;
+         color: white;
+         opacity: 0.9;
+         font-size: 250%;
+         text-align: center;
+         margin-top: 12%;
+         font-weight: bold;
+     }
+     .fon-text{
+         position: absolute;
+         color: rgba(255, 255, 255, 0.577);
+         font-size: 100%;
+         text-align: center;
+         margin-top: 16%;
+         font-weight: bold;
+         width: 100%;
+     }
+     .fon-button{
+         position: absolute;
+         background-color: #38ebeb;
+         width: 15%;
+         height: 55px;
+         margin: 0 auto;
+         color: white;
+         font-weight: bold;
+         font-size: 100%;
+         margin-top: 20%;
+     }
+     .connect-fon{
+         align-items: center;
+         top: 150px;
+         display: flex;
+         position: relative;
+         margin: auto;
+         color: white;
+         font-size: 125%;
+     }
 }
-
-.logobox-mobile{
-    position: absolute;
-    width: 25%;
-    height: 85%;
-    left: 43%;
-    top: 10%;
-}
-
-.make-mobile{
-  position: absolute;
-  width: 20%;
-  height: 40%;
-  left: 10%;
-  background-color: #38EBEB;
-  font-size: 150%;
-  top: 30%;
-  color: white;
-  font-weight: bold;
-}
-
-
-
-
-
-.fon-mobile{
-    position: absolute;
-    top: 0px;
-    width: 100%;
-    height: 2100px;
-    position: absolute;
-    z-index: 0.5;
-    opacity: 0.7;
-}
-
-.title-mobile{
-   position: absolute;
-   font-size: 550%;
-   color: white;
-   font-weight: bold;
-   padding-top: 25%;
-   padding-left: 22%;
-   text-align: center;
-   z-index: 1;
-   opacity: 0.9;
-   font-family: 'Inter', sans-serif;
-}
-.title-text-mobile{
-    position: absolute;
-    right: 7%;
-    font-size: 300%;
-    color: rgb(160, 158, 158);
-    font-weight: bold;
-    padding-top: 40%;
-    padding-left: 10%;
-    text-align: center;
-    z-index: 1;
-    opacity: 0.9;
-    font-family: 'Inter', sans-serif;
+/*Desktop*/
+@media screen and (min-width: 1000px){
+    .box{
+       position: relative;
+       background-color: black;
+       width: 100%;
+       height: 2918px;
+       z-index: 0;
+       display: flex;
+       flex-direction: column;
+    }
+    .top{
+        background-color: #000000ea;
+        position: fixed;
+        width: 100%;
+        height: 100px;
+        z-index: 2;
+    }
+    .logobox{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        width: 70%;
+        margin: auto;
+    }
+    .make{
+     display: none;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        font-size: 100%;
+        color: #38ebebc7;
+        width: 80%;
+        margin: auto 14%;
+    }
+    .menu-txt{
+        position: relative;
+        margin: auto;
+    }
+    .menu-txt:hover{
+        position: relative;
+        margin: auto;
+        color: #38ebeb;
+    }
     
- }
- .make-fon-mobile{
-     position: absolute;
-     background-color: #38EBEB;
-     width: 40%;
-     height: 150px;
-     top: 550px;
-     right: 29%;
-     color: white;
-     text-align: center;
-     font-size: 300%;
-     font-weight: bold;
-     z-index: 1;
- }
- .title-connection-mobile{
-    align-items: center;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-     top: 700px;
-     padding-left: 20%;
-     padding-right: 23%;
-     padding-top: 200px;
-     font-size: 300%;
-     color: rgb(160, 158, 158);
-     z-index: 1;
- }
-
-
-
-.free-title-mobile{
-    display: flex;
-    position:relative;
-    margin-top: 1300px;
-    margin-left: 100px;
-    color: #38EBEB;
-    font-size: 600%;
-    z-index: 1;
-}
-.free-text-mobile{
-    display: flex;
-    position: relative;
-    margin-left: 100px;
-    margin-top: 50px;
-    color: #38ebebc0;
-    font-size: 350%;
-    z-index: 1;
-}
-
-.content-title-mobile{
-    align-items: center;
-    text-align: center;
-    display: flex;
-    position:relative;
-    margin: 100px auto;
-    color: #38EBEB;
-    font-size: 450%;
-    z-index: 1;
-}
-.news-box-mobile{
-    display: flex;
-    margin: 50px,auto;
-    position: relative;
-    background-color: white;
-    width: 100%;
-    height: 1300px;
-    z-index: 1;
-}
-
-.galery-mobile{
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 15%;
-    position: relative;
-    width: 60%;
-    height: 600px;
-    z-index: 1;
-    margin: 50px auto;
-}
-.make-galery-mobile{
-    font-weight: bold;
-    text-align: center;
-    align-items: center;
-    background-color: #38EBEB;
-    color: white;
-    font-size: 300%;
-    width: 50%;
-    height: 100px;
-    z-index: 1;
-    margin: 50px auto;
-}
-.map-mobile{
-    display: flex;
-    position: relative;
-    width: 80%;
-    height: 1200px;
-    margin: 0 auto;
-}
-.copiright-mobile{
-    display: flex;
-    position:relative;
-    margin: 100px auto;
-    color: #ffffff9d;
-    font-size: 400%;
-    z-index: 1;
-}
+    
+    
+    
+    
+    .fon{
+        justify-content: center;
+        position: relative;
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 730px;
+    }
+    .fon-img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.7;
+    }
+    .fon-title{
+        width: 100%;
+        position: absolute;
+        color: white;
+        opacity: 0.9;
+        font-size: 250%;
+        text-align: center;
+        margin-top: 12%;
+        font-weight: bold;
+    }
+    .fon-text{
+        position: absolute;
+        color: rgba(255, 255, 255, 0.577);
+        font-size: 100%;
+        text-align: center;
+        margin-top: 16%;
+        font-weight: bold;
+        width: 100%;
+    }
+    .fon-button{
+        position: absolute;
+        background-color: #38ebeb;
+        width: 15%;
+        height: 55px;
+        margin: 0 auto;
+        color: white;
+        font-weight: bold;
+        font-size: 100%;
+        margin-top: 20%;
+    }
+    .connect-fon{
+        align-items: center;
+        top: 150px;
+        display: flex;
+        position: relative;
+        margin: auto;
+        color: white;
+        font-size: 125%;
+    }
+    }
