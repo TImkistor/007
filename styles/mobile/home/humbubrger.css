@@ -4,7 +4,7 @@
 }
 
 /*Mobile*/
-@media screen and (max-width: 600px){
+@media screen and (min-device-width: 1px){
 #menu__toggle {
     opacity: 0;
   }
@@ -66,7 +66,7 @@
     display: block;
         position: fixed;
         visibility: hidden;
-        top: 1%;
+        top: 8%;
         left: -100%;
       
         width: 100%;
@@ -137,7 +137,7 @@
   }
 }
 /*Tablet*/
-@media screen and (max-width: 999px){
+@media screen and (min-device-width: 540px){
     #menu__toggle {
         opacity: 0;
       }
@@ -270,7 +270,7 @@
       }
     }
 /*Desktop*/
-@media screen and (min-width: 1000px){
+@media screen and (min-device-width: 1000px){
     #menu__toggle {
         display: none;
         background-color: #00000000;
